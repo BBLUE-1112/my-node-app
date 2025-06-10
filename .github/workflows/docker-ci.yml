@@ -3,7 +3,7 @@ name: CI/CD - Build and Deploy to DockerHub
 on:
   push:
     branches:
-      - main  # Or 'master', depending on your branch
+      - master  # Or 'master', depending on your branch
 
 jobs:
   build:
